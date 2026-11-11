@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-triremes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "n8n node for Triremes: find business websites with SEO and AEO gaps, and problems people report, as leads for agencies",
   "keywords": [
     "n8n-community-node-package",

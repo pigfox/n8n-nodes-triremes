@@ -11,6 +11,16 @@ their next clients.
 In n8n: **Settings → Community Nodes → Install**, and enter
 `n8n-nodes-triremes`.
 
+Self-hosted n8n with community nodes installed by hand, or in Docker:
+
+```sh
+cd ~/.n8n/nodes          # in Docker: /home/node/.n8n/nodes
+npm install n8n-nodes-triremes
+```
+
+then restart n8n. **Triremes** shows in the nodes panel, and **Triremes
+API** under Credentials.
+
 ## Credential
 
 **Triremes API**: your API key, from
