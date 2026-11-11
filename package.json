@@ -1,0 +1,41 @@
+{
+  "name": "n8n-nodes-triremes",
+  "version": "1.0.0",
+  "description": "n8n node for Triremes: find business websites with SEO and AEO gaps, and problems people report, as leads for agencies",
+  "keywords": [
+    "n8n-community-node-package",
+    "triremes",
+    "seo",
+    "aeo",
+    "leads",
+    "agency"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/pigfox/n8n-nodes-triremes",
+  "author": {
+    "name": "Pigfox LLC",
+    "url": "https://triremes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigfox/n8n-nodes-triremes.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/TriremesApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Triremes/Triremes.node.js"
+    ]
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
